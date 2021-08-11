@@ -35,17 +35,19 @@ $(document).ready(function() {
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["English Lessons", "One-to-one sessions", "IELTS/ESL", "Exam preparation", "Freelancer"],
+        strings: ["کلاسهای انگلیسی", "کلاسهای یک به یک", "IELTS/ESL", "آمادگی امتحان"],
         typeSpeed: 100,
         backSpeed: 60,
-        loop: true
+        loop: true,
+        rtl: true
     });
 
-    var typed = new Typed(".typing-2", {
-        strings: ["ESL Teacher", "Educator", "English Guide", "Native English speaker", "Private teacher"],
+    var typed = new Typed(".typing-2fa", {
+        strings: ["یک زبان مادری انگلیسی هستم", "راهنمای انگلیسی هستم", "راهنمای انگلیسی شما می باشم"],
         typeSpeed: 100,
         backSpeed: 60,
-        loop: true
+        loop: true,
+        rtl: true
     });
 
     // owl carousel script
