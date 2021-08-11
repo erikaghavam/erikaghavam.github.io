@@ -85,6 +85,7 @@ section .titlefa {
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
+    bottom: 20px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -388,7 +389,8 @@ section .title::after {
 .services .titlefa::after,
 .teams .titlefa::after {
     background: #111;
-    content: "چیز هایی که‌ ارائه می دهم";
+    top: 75px;
+    content: "چیز هایی که‌ ارائه می دهم.";
 }
 
 .services .serv-content .card {
